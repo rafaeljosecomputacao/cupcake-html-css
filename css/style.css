@@ -215,3 +215,155 @@ section {
     left: 20px;
 	width: calc(100% - 400px);
 }
+
+/* Gallery */
+
+.banner-gallery {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+}
+
+#section-traditional, #section-miniature, #section-special {
+	padding-right: 40px;
+	margin-bottom: 50px;
+}
+
+.traditional {
+	width: 18.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img1 {
+	background-image: url('../img/image-1.jpg');
+	margin-left: 0;
+}
+
+#img2 {
+	background-image: url('../img/image-2.jpg');
+}
+
+#img3 {
+	background-image: url('../img/image-3.jpg');
+}
+
+#img4 {
+	background-image: url('../img/image-4.jpg');
+	background-position: bottom;
+}
+
+#img5 {
+	background-image: url('../img/image-5.jpg');
+	margin-right: 0;
+}
+
+.miniature {
+	width: 32.3%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img6 {
+	background-image: url('../img/image-6.jpg');
+	margin-left: 0;
+}
+
+#img7 {
+	background-image: url('../img/image-7.jpg');
+}
+
+#img8 {
+	background-image: url('../img/image-8.jpg');
+	margin-right: 0;
+}
+
+.special {
+	width: 23.9%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img9 {
+	background-image: url('../img/image-9.jpg');
+	margin-left: 0;
+}
+
+#img10 {
+	background-image: url('../img/image-10.jpg');
+}
+
+#img11 {
+	background-image: url('../img/image-11.jpg');
+}
+
+#img12 {
+	background-image: url('../img/image-12.jpg');
+	margin-right: 0;
+}
+
+/* Contact */
+
+#form-contact {
+	width: 500px;
+}
+
+#form-contact input[type=text], #form-contact input[type=email], #form-contact textarea {
+	display: block;
+	border: 1px solid var(--primary);
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-family: "Poppins";
+	font-weight: 300;
+	color: var(--text-dark);
+	font-size: 16px;
+}
+
+#form-contact input[type=text]:focus, #form-contact input[type=email]:focus, #form-contact textarea:focus {
+	border: 1px solid var(--hover-btn);
+    box-shadow: 0 0 3px var(--hover-btn);
+    outline-offset: 0px;
+    outline: none;
+}
+
+#form-contact textarea {
+	height: 150px;
+}
+
+#form-contact ::placeholder {
+	color: var(--placeholder);
+}
+
+#form-contact input[type=submit] {
+	margin-left: 0;
+	width: 140px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+	height: 40px;
+	padding-top: 100px;
+	font-family: "Poppins";
+	font-weight: 300;
+	color: var(--primary);
+	font-size: 18px;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer span {
+	font-family: "Poppins";
+	font-weight: 600;
+}
+
+#year {
+	font-family: "Poppins";
+	font-weight: 300;
+}
